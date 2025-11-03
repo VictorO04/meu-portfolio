@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +8,9 @@
 
 body {
     transition: 
-    color 0.3s
-    background-color 0.3s;
+    background-color 0.3s,
+    color 0.3s;
+    font-family: "JetBrains Mono", monospace;
 }
 
 body.claro {
@@ -47,5 +50,13 @@ body.claro #tema {
 }
 
 body.claro #tema:hover {
+    background-color: #a16baf;
+}
+
+body.escuro #tema {
+    background-color: black;
+}
+
+body.escuro #tema:hover {
     background-color: #a16baf;
 }
