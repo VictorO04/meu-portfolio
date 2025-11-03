@@ -43,6 +43,7 @@ header {
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.2s;
+    box-shadow: 0 0 25px 5px rgba(138, 43, 226, 0.5);
 }
 
 body.claro #tema {
@@ -62,6 +63,29 @@ body.escuro #tema:hover {
 }
 
 #titulo-header {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+#sobre-mim-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 12vh;
+    margin-left: 40vh;
+    width: 25%;
+    height: 50vh;
+    border: 2px solid #632e70;
+    border-radius: 30px;
+    box-shadow: 0 0 25px 5px rgba(138, 43, 226, 0.5);
+}
+
+#sobre-mim-container h2 {
+    margin-top: 2.8vh;
     font-size: 25px;
     font-weight: normal;
+    background-color: #632e7093;
+    height: 7%;
+    width: 30%;
+    border-radius: 4px;
+    text-align: center;
 }
