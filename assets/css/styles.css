@@ -60,3 +60,8 @@ body.escuro #tema {
 body.escuro #tema:hover {
     background-color: #a16baf;
 }
+
+#titulo-header {
+    font-size: 25px;
+    font-weight: normal;
+}
