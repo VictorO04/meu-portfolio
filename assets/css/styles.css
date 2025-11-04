@@ -67,16 +67,33 @@ body.escuro #tema:hover {
     font-weight: normal;
 }
 
+#primeiro-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#textos-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #sobre-mim-container {
     display: flex;
     justify-content: center;
     margin-top: 12vh;
-    margin-left: 40vh;
     width: 25%;
     height: 50vh;
     border: 2px solid #632e70;
     border-radius: 30px;
     box-shadow: 0 0 25px 5px rgba(138, 43, 226, 0.5);
+    transition: transform 0.3s ease;
+}
+
+#sobre-mim-container:hover {
+    transform: translateY(-8px);
 }
 
 #sobre-mim-container h2 {
@@ -88,4 +105,26 @@ body.escuro #tema:hover {
     width: 30%;
     border-radius: 4px;
     text-align: center;
+}
+
+#sobre-mim-container p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 2.5vh;
+    padding: 25px;
+}
+
+#primeiro-container img {
+    margin-top: 12vh;
+    width: 25%;
+    height: 50vh;
+    border: 2px solid #632e70;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 0 0 25px 5px rgba(138, 43, 226, 0.5);
+    transition: transform 0.3s ease;
+}
+
+#primeiro-container img:hover {
+    transform: translateY(-8px);
 }
