@@ -149,3 +149,20 @@ section h2 {
     list-style-type: none;
     position: absolute;
 }
+
+a {
+    display: flex;
+    justify-content: center;
+    margin-top: 21vh;
+    margin-bottom: 12vh;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+body.claro a {
+    color: black;
+}
+
+body.escuro a {
+    color: white;
+}
